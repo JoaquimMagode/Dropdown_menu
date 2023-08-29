@@ -1,0 +1,35 @@
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 10px 0px;
+    background-color: black;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+li a{
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+}
+li a:hover,.dropdown:hover .dropdown-btn{
+    background-color: coral;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 150px;
+    background-color: black;
+    top: 47px;
+}
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    border:  1px solid #fff;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
